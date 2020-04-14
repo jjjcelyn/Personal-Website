@@ -1,0 +1,260 @@
+/* ---------- Global ---------- */
+html {
+	scroll-behavior:smooth;
+}
+body {
+	margin:0;
+	padding:0;
+}
+h1 {
+	font-size:40px;
+	color:black;
+	font-weight:400;
+	font-family:'Libre Baskerville';
+	}
+h2 {
+	font-family: 'Libre Baskerville';
+	font-weight: 400;
+	font-size:20px;
+}
+a:link {
+	color:black;
+	padding:10px;
+	text-decoration:none;
+}
+a:visited {
+	color:black;
+}
+a:hover {
+	color:#a86565;
+} 
+/* ---------- Header ---------- */
+#name {
+	background-color:#edeee7;
+	padding-top:2px;
+	padding-left:50px;
+}
+#nav {
+	margin-left:70%;
+	font-family: 'Poppins';
+	letter-spacing: .08em;
+}
+/* ---------- About ---------- */
+#about {
+	background-color:white;
+	padding:50px 0px 80px 100px;
+	margin:center;
+}
+.aboutContent {
+	width:40%;
+	display:inline-block;
+	text-align:center;
+	letter-spacing:.08em;
+	line-height: 1.5rem;
+	vertical-align:middle;
+}
+.aboutContent p{
+	font-family: 'Poppins';
+}	
+.aboutContent img {
+	width:85%;
+}	
+/* ---------- Video ---------- */
+#text {
+	background-color:#edeee7;
+	padding:5px 20px 5px 20px;
+	letter-spacing:.08em;
+	text-align:center;
+}
+#videosText {
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#videosBorder {
+	padding:5px 20px 5px 20px;
+	background-color:#edeee7;
+	display:inline-block;
+}
+#titlesTravel {
+	display:inline-block;
+	background:#ebe4e4;
+	font-size:18px;
+	font-family: 'Poppins';
+	text-align:center;
+	margin-left:5%;
+	padding:0px 15px 0px 15px;
+	opacity:0.8;
+	letter-spacing: .08em;
+	margin-top:35px;
+}
+#titlesPersonal {
+	display:inline-block;
+	background:#ebe4e4;
+	font-size:18px;
+	font-family: 'Poppins';
+	text-align:center;
+	margin-left:5%;
+	padding:0px 15px 0px 15px;
+	opacity:0.8;
+	letter-spacing: .08em;
+	margin-top:35px;
+}
+#titlesOthers {
+	display:inline-block;
+	background:#ebe4e4;
+	font-size:18px;
+	font-family: 'Poppins';
+	text-align:center;
+	margin-left:5%;
+	padding:0px 15px 0px 15px;
+	opacity:0.8;
+	letter-spacing: .08em;
+	margin-top:35px;
+}
+#titlesSchool {
+	display:inline-block;
+	background:#ebe4e4;
+	font-size:18px;
+	font-family: 'Poppins';
+	text-align:center;
+	margin-left:5%;
+	padding:0px 15px 0px 15px;
+	opacity:0.8;
+	letter-spacing: .08em;
+	margin-top:35px;
+}
+.beige {
+	background-color:#fafaf8;
+}
+.videos1 {
+	text-align:center;
+}
+.videos2 {
+	max-width:560px;
+	height:315px;
+	margin:0 auto;
+	padding:1% 0 2% 0;
+}
+.videos {
+	text-align:center;
+	background-color:#fafaf8;
+}
+.videoRow {
+	display:inline-block;
+	text-align:center;
+	margin-top:3%;
+}
+.videoItem {
+	text-align:center;
+	padding:20px;
+}
+.videoItem img {
+	width:350px;
+}
+.middle {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+	background:white;
+	font-family: 'Poppins';
+	letter-spacing: .08em;
+	line-height: 1.0em;
+	padding: 11px 18px 9px;
+	opacity:0.7;
+}
+.container {
+	position: relative;
+    text-align: center;
+    color:black;
+	font-size:20px;
+	padding-top:1px;
+}
+/* ---------- Footer ---------- */
+footer {
+	background-color:#edeee7;
+	padding:1px 0px 10px 0;
+	font-family:'Poppins';
+	font-weight:400;
+	font-size:14px;
+	letter-spacing:.08em;
+}
+footer span {
+	margin-left:45%;
+}
+#footerSocial {
+	display:inline-block;
+	width:34%;
+	margin-top:1%;
+}
+.fa {
+	font-size:14px;
+	height:13px;
+	width:14px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	margin-left:10px;
+}
+.fa:hover {
+	opacity: 0.5;
+	background-color:white;
+}
+.fa-yahoo {
+	background: white;
+	color: white;
+}
+.fa-vimeo {
+	 background: white;
+	 color: white;
+}
+
+/* ---------- Media Queries ---------- */
+@media only screen and (max-width:960px) {
+
+#name {
+	padding-left:40px;
+}
+#nav {
+	margin-left:55px;
+	font-size:14px;
+}
+.aboutContent {
+	width:80%;
+	text-align:center;
+}
+.aboutContent img {
+	width:100%;
+}	
+.aboutContent p{
+	font-size:14px;
+}
+#titlesTravel {
+	margin-left:39.7%;
+}
+#titlesPersonal {
+	margin-left:39%;
+}
+#titlesOthers {
+	margin-left:35%;
+}
+#titlesSchool {
+	margin-left:30%;
+}
+#footerSocial {
+	width:30%;
+}
+footer span {
+	margin-left:15%;
+}
+.fa {
+	font-size: 14px;
+	height:9px;
+	width:8px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	margin:2px;
+}
